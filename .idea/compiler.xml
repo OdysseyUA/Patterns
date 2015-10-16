@@ -22,10 +22,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="Decorator" />
+        <module name="Factory" />
         <module name="Strategy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Decorator" target="1.8" />
+      <module name="Factory" target="1.8" />
       <module name="Patterns" target="1.8" />
       <module name="Strategy" target="1.8" />
     </bytecodeTargetLevel>
